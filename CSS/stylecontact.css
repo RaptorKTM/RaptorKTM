@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+header nav.menu-nav ul li.btn{
+		list-style-type: none ;
+		/* text-align: center;
+		display: inline-block; */
+		padding: 13px 8px;
+		text-shadow: 1px 3px 2px black;
+		color: white;
+		font-family: 'Press Start 2P', Times New Roman ;	
+	}
+
+header nav.menu-nav ul li.btn:hover a{
+	opacity: 0.5;
+	transform: scale(1.05);
+	transition: 0.3 ease-in-out;
+}
+
+header nav.menu-nav {
+	list-style-type: none ;
+	padding: 10;
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+	opacity: 0.9;
+	text-shadow: 1px 3px 2px black;
+}
+
+h1{
+	font-family: 'Press Start 2P', Times New Roman ;
+	color: darkblue;
+	padding: 30;
+	text-align: center;
+	font-size: 3em;
+	text-shadow: 1px 3px 2px black /*(largeur, décalage, opacité, couleur)*/;
+}
+
+
+body{
+	font-family: 'Advent Pro', sans-serif;
+	padding: 0;
+	margin: 0;
+	background-image: linear-gradient(to top, black, #F8D03E  ) ;
+}
+
+
+nav.contact li{
+	font-family: 'Press Start 2P', Times New Roman;
+	padding: 10;
+	text-align: center;
+	font-size: 1.05em;
+	text-shadow: 1px 3px 2px black;
+	font-style: bold;
+	color: white;
+	list-style-type: none;
+}
+
+nav.contact li:hover{
+	color: white;
+	opacity: 0.5;
+	transform: scale(1.09);
+	transition: 0.9 ease-in-out;
+}
+
+p{
+	color: white;
+	text-align: center;
+	font-family: 'Press Start 2P', Times New Roman ;
+	text-shadow: 1px 3px 2px black;
+}
+
+#premiertrait{
+	height: 2px;
+	width: 50%;
+	margin: -3px auto;
+	background-color: #fff;
+	box-shadow: 1px 3px 2px black;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#deuxiemetrait{
+	height: 2px;
+	width: 50%;
+	margin: 3px auto;
+	background-color: #fff;
+	box-shadow: 1px 3px 2px black;
+}
+
+/*footer{
+	text-align: center;
+	display: inline-block;
+	padding: 0px ;
+	width: 100%;
+	text-shadow: 1px 1px 1px black;
+	font-family: 'Press Start 2P', Times New Roman ;
+}*/
