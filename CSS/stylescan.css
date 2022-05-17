@@ -4,7 +4,7 @@
 	position: fixed;
 	width: 16%;
 	height: 100%;
-	left: -16%;
+	left: -17%;
 	background: transparent;
 }
 
@@ -18,7 +18,7 @@
 
 .toggle-btn{
 	position: absolute;
-	left: 105%;
+	left: 114%;
 	top: 15px;
 }
 
