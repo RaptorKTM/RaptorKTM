@@ -106,7 +106,7 @@ a{
 .image{
 	text-align: center;
 	margin: auto;
-	padding: 10px;
+	padding: 5px;
 }
 
 #deuxiemetrait{
@@ -117,9 +117,6 @@ a{
 	box-shadow: 1px 3px 2px black;
 }
 
-#Merci{
-	padding: 70px;
-}
 footer{
 	text-align: center;
 	display: inline-block;
