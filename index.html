@@ -1,31 +1,30 @@
-
 <html>
 <head>
 	<title>RaptorKTM World</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<script type="text/javascript">
+		function togglemenu(){
+			document.getElementById('sidebar').classList.toggle('active')
+		}
+	</script>
 </head>
 <body>
 	<header>
 		<nav class="menu-nav">
+			<div id="sidebar" onclick="togglemenu()">
+				<div class="toggle-btn">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
 			<ul>
-				<li class="btn">
-					<a href="#">
-						Accueil
-					</a>
-				</li>
-				<li class="btn">
-					<a href="projets.html">
-						Projets
-					</a>
-				</li>
-				<li class="btn">
-					<a href="contact.html">
-						Contact
-					</a>
-				</li>
+				<li class="btn"><a href="index.html#">Accueil</a></li>
+				<li class="btn"><a href="projets.html">Projets</a></li>
+				<li class="btn"><a href="contact.html">Contact</a></li>
 			</ul>
+			</div>
 		</nav>
 		<div id="mainimg">
 			<h1> RaptorKTM </br></br>World </h1> 	

@@ -4,27 +4,27 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="CSS/stylescan.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<script type="text/javascript">
+		function togglemenu(){
+			document.getElementById('sidebar').classList.toggle('active')
+		}
+	</script>
 </head>
 <body>
 	<header>
 		<nav class="menu-nav">
+			<div id="sidebar" onclick="togglemenu()">
+				<div class="toggle-btn">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
 			<ul>
-				<li class="btn">
-					<a href="index.html#">
-						Accueil
-					</a>
-				</li>
-				<li class="btn">
-					<a href="projets.html">
-						Projets
-					</a>
-				</li>
-				<li class="btn">
-					<a href="contact.html">
-						Contact
-					</a>
-				</li>
+				<li class="btn"><a href="index.html#">Accueil</a></li>
+				<li class="btn"><a href="projets.html">Projets</a></li>
+				<li class="btn"><a href="contact.html">Contact</a></li>
 			</ul>
+			</div>
 		</nav>
 		<div id="pagescan">
 			<h1> Scan </h1> 	
@@ -40,7 +40,7 @@
 		</br></br></br></br><img src="img/1.jpg">
 		</br></br></br></br><img src="img/2.jpg">
 		</br></br></br></br><img src="img/3.jpg">
-		</br></br></br></br><img src="img/4.jpg">
+		</br></br></br></br><img id="dp" src="img/4.jpg">
 		</br></br></br></br><img src="img/5.jpg">
 		</br></br></br></br><img src="img/6.jpg">
 		</br></br></br></br><img src="img/7.jpg">
