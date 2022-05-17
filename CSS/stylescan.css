@@ -79,6 +79,12 @@ body{
 	background-image: linear-gradient(to top, black, #F8D03E  ) ;
 }
 
+#dp{
+	padding-left: 4%;
+	padding-right: 3%;
+	/*width: 90%;*/
+}
+
 p{
 	color: white;
 	text-align: center;
