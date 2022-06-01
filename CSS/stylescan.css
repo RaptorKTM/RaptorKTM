@@ -2,9 +2,9 @@
 
 #sidebar{
 	position: fixed;
-	width: 16%;
+	width: 17%;
 	height: 100%;
-	left: -17%;
+	left: -19%;
 	background: transparent;
 }
 
@@ -75,7 +75,7 @@ body{
 	font-family: 'Advent Pro', sans-serif;
 	padding: 0;
 	margin: 0;
-	background-image: linear-gradient(to top, black, #F8D03E  ) ;
+	background-image: linear-gradient(to top, black, #F0A82B ) ;
 }
 
 #dp{
