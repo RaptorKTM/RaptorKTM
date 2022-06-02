@@ -158,3 +158,7 @@ footer{
 	text-shadow: 1px 1px 1px black;
 	font-family: 'Press Start 2P', Times New Roman ;
 }
+
+#copyright{
+	margin-top: 5px;
+}
