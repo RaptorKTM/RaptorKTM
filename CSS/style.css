@@ -84,6 +84,7 @@ body{
 	padding: 0;
 	margin: 0;
 	background-image: linear-gradient(to top, black, #F8D03E  ) ;
+	overflow-x: hidden;
 }
 
 
@@ -101,7 +102,7 @@ nav.scans li{
 nav.scans li.scan:hover{
 	color: white;
 	opacity: 0.5;
-	transform: scale(0.95);
+	transform: scale(1.05);
 	transition: 0.9 ease-in-out;
 }
 
