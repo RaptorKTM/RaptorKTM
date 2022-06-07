@@ -160,5 +160,7 @@ footer{
 }
 
 #copyright{
-	margin-top: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
 }

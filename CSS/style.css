@@ -83,7 +83,7 @@ body{
 	font-family: 'Advent Pro', sans-serif;
 	padding: 0;
 	margin: 0;
-	background-image: linear-gradient(to top, black, #F8D03E  ) ;
+	background-image: linear-gradient(to top, black, 30%, #F8D03E ) ;
 	overflow-x: hidden;
 }
 
@@ -132,6 +132,12 @@ a{
 	margin: 3px auto;
 	background-color: #fff;
 	box-shadow: 1px 3px 2px black;
+}
+
+#copyright{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
 }
 
 footer{
