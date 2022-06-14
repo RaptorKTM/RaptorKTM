@@ -110,6 +110,13 @@ a{
 	padding: 5px;
 }
 
+#colo{
+	text-align: center;
+	margin: auto;
+	padding-top: 120px;
+	width: 60%;
+}
+
 #deuxiemetrait{
 	height: 2px;
 	width: 50%;
