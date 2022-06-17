@@ -87,6 +87,19 @@ body{
 	overflow-x: hidden;
 }
 
+nav.TGGC{
+	color: #B32D11 ;
+	text-align: center;
+	font-family: 'Press Start 2P', Times New Roman ;
+	text-shadow: 1px 3px 2px black;
+}
+
+nav.TGGC:hover{
+	color: white;
+	opacity: 0.5;
+	transform: scale(1.05);
+	transition: 0.9 ease-in-out;
+}
 
 nav.scans li{
 	font-family: 'Press Start 2P', Times New Roman;
