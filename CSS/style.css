@@ -31,12 +31,6 @@
 	margin: 3px;
 }
 
-#counter{
-	color: transparent ;
-	text-align: center;
-	margin: 0px;
-}
-
 #sidebar.active{
 	left: 0%;
 	transition: 0.3 ease-in-out;
