@@ -31,11 +31,6 @@
 	margin: 3px;
 }
 
-#counter{
-	color: transparent ;
-	text-align: center;
-	margin: 0px;
-}
 
 #sidebar.active{
 	left: 0%;
@@ -89,18 +84,22 @@ body{
 	font-family: 'Advent Pro', sans-serif;
 	padding: 0;
 	margin: 0;
-	background-image: linear-gradient(to top, black, 30%, #F8D03E ) ;
+	background-image: linear-gradient(to top, black, 20%, #F8D03E ) ;
 	overflow-x: hidden;
 }
 
 nav.TGGC{
+	font-size: 40px;
+	list-style-type: none ;
 	color: #B32D11 ;
 	text-align: center;
 	font-family: 'Press Start 2P', Times New Roman ;
 	text-shadow: 1px 3px 2px black;
+	margin: 20px;
 }
 
 nav.TGGC:hover{
+	list-style-type: none ;
 	color: white;
 	opacity: 0.5;
 	transform: scale(1.05);
