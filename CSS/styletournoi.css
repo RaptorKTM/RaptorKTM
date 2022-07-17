@@ -35,6 +35,12 @@
 	transition: 0.3 ease-in-out;
 }
 
+.image{
+	text-align: center;
+	margin: auto;
+	padding: 5px;
+}
+
 header nav.menu-nav ul li.btn{
 		list-style-type: none ;
 		/* text-align: center;
