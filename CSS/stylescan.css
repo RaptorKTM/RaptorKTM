@@ -9,7 +9,7 @@
 }
 
 #sidebar li.btn{
-	color: black;
+	color: red;
 	padding: 13px 8px;
 	text-shadow: 1px 3px 2px black;
 	font-family: 'Press Start 2P', Times New Roman ;	
@@ -24,7 +24,7 @@
 
 .toggle-btn span{
 	display: block;
-	background-color: black;
+	background-color: red;
 	width: 30px;
 	height: 5px;
 	margin: 3px;
@@ -37,11 +37,9 @@
 
 header nav.menu-nav ul li.btn{
 		list-style-type: none ;
-		/* text-align: center;
-		display: inline-block; */
+		color: red;
 		padding: 13px 8px;
 		text-shadow: 1px 3px 2px black;
-		color: white;
 		font-family: 'Press Start 2P', Times New Roman ;	
 	}
 
@@ -49,6 +47,7 @@ header nav.menu-nav ul li.btn:hover a{
 	opacity: 0.5;
 	transform: scale(1.05);
 	transition: 0.3 ease-in-out;
+	color: red;
 }
 
 header nav.menu-nav {
@@ -59,11 +58,12 @@ header nav.menu-nav {
 	width: 100%;
 	opacity: 0.9;
 	text-shadow: 1px 3px 2px black;
+	color: red;
 }
 
 h1{
 	font-family: 'Press Start 2P', Times New Roman ;
-	color: darkblue;
+	color: red;
 	padding: 30;
 	text-align: center;
 	font-size: 3em;
@@ -75,7 +75,7 @@ body{
 	font-family: 'Advent Pro', sans-serif;
 	padding: 0;
 	margin: 0;
-	background-image: linear-gradient(to top, black, #F0A82B );
+	background: black;
 	overflow-x: hidden;
 }
 
@@ -108,7 +108,7 @@ h2{
 
 a{
 	text-decoration: none;
-	color: black ;
+	color: red;
 }
 .image{
 	text-align: center;

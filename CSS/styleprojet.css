@@ -25,7 +25,7 @@
 
 .toggle-btn span{
 	display: block;
-	background-color: black;
+	background-color: #F2A010;
 	width: 30px;
 	height: 5px;
 	margin: 3px;
@@ -65,7 +65,7 @@ header nav.menu-nav {
 
 h1{
 	font-family: 'Press Start 2P', Times New Roman ;
-	color: darkblue;
+	color: #F2A010;
 	padding: 30;
 	text-align: center;
 	font-size: 3em;
@@ -84,7 +84,7 @@ body{
 	font-family: 'Advent Pro', sans-serif;
 	padding: 0;
 	margin: 0;
-	background-image: linear-gradient(to top, black, #F8D03E  ) ;
+	background:#1e1e1f ;
 	overflow-x: hidden;
 }
 
@@ -131,7 +131,7 @@ p{
 
 a{
 	text-decoration: none;
-	color: black;
+	color: #F2A010;
 }
 
 #deuxiemetrait{
