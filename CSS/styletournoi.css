@@ -8,6 +8,16 @@
 	background: transparent;
 }
 
+#click-counter {
+		  font-size: 20px;
+		  padding: 10px 20px;
+		}
+
+		#counter-display {
+		  font-size: 30px;
+		  margin-top: 20px;
+		}
+
 #sidebar li.btn{
 	color: black;
 	padding: 13px 8px;
